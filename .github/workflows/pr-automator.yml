@@ -15,9 +15,6 @@ jobs:
         with:
           fail-label: needs:feedback
           pass-label: needs:code-review
-          reviewers: |
-            iamdharmesh
-            faisal-alvi
-            wpghactionbot
+          reviewer: faisal-alvi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
